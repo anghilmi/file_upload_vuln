@@ -30,10 +30,10 @@ if (isset($_POST['submit'])) {
 	
 	<?php
 	
-	if ($uploadOk)
+	if (!empty($uploadOk))
 	{
 		echo "<p>Upload berhasil:</p>";
-		echo "<img src='{$target_path}'>";
+		echo "<img src='".$target_path."'>";
 	}
 	
 	?>
@@ -49,4 +49,3 @@ if (isset($_POST['submit'])) {
 </body>
 
 </html>
-
