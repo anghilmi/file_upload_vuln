@@ -1,7 +1,7 @@
 <pre>
 <?php
 
-echo shell_exec("Notepad.exe");
+system("dir"); // seperti Anda membuka cmd kemudian memasukkan perintah "dir"
 
 ?>
 </pre>
